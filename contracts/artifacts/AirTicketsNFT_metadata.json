@@ -406,6 +406,11 @@
 						"internalType": "uint256",
 						"name": "totalSeats",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "metadataURI",
+						"type": "string"
 					}
 				],
 				"name": "createFlight",
@@ -472,6 +477,11 @@
 						"internalType": "address",
 						"name": "airline",
 						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "metadataURI",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -562,6 +572,11 @@
 								"internalType": "address",
 								"name": "airline",
 								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "metadataURI",
+								"type": "string"
 							}
 						],
 						"internalType": "struct AirTicketsNFT.Flight[]",
@@ -714,19 +729,6 @@
 					}
 				],
 				"name": "setApprovalForAll",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_baseURL",
-						"type": "string"
-					}
-				],
-				"name": "setBaseURI",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -1094,11 +1096,11 @@
 			]
 		},
 		"contracts/3_AirlineTickets_ERC_1155.sol": {
-			"keccak256": "0x4e2ee59b4ab182f410d8e4519f0f92a14f12a5a5f37f5b08f14e6835c50b0400",
+			"keccak256": "0xebbc38cbb36bc96f71c579acc22ca584e207578603437e43ea89757109924b4b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eddde42fb422b34916048142a056ac0c33245fe08c67b009e20a88bc1748799f",
-				"dweb:/ipfs/QmU1Yc3g7n3Wppubq8fJQwVf7i4zXusJYxvuHkc4uUHTGa"
+				"bzz-raw://3020a6958f7dae1bbf052a53f80718ba57cc249b5f64ac687aec4a53c131acf8",
+				"dweb:/ipfs/QmfA4yUWJ5bm1bFFpPwQbqUexKpTUhjmHVfvYpzL2jPhiX"
 			]
 		}
 	},
